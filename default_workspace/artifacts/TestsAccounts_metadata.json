@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getAccount",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity.sol": "TestsAccounts"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity.sol": {
+			"keccak256": "0x6c15432200e9828cafb87a9d585e1ab6c2c1c9a7809fc3dfc3e26a6d65a24ebf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ba29ca7ea15544b44e51dfc0031b5b431528b4de0b7b14c9db5a6c241ddb9b3a",
+				"dweb:/ipfs/QmVyLPmDgVCyW4qh6ze5sBfWB8hz3MfWZgfko39pqQnX2i"
+			]
+		}
+	},
+	"version": 1
+}
